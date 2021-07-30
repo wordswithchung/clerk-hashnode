@@ -1,0 +1,6 @@
+main.layout-main {
+  background-color: #577590;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  min-height: calc(100vh - 100px);
+}

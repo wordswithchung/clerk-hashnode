@@ -1,0 +1,9 @@
+.user-island {
+  background-color: #f8961e;
+  width: 100%;
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px;
+}

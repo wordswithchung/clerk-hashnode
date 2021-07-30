@@ -1,0 +1,45 @@
+.signed-in-user-island {
+  padding: 20px;
+  background-color: #43aa8b;
+  width: 90%;
+}
+
+.other-island {
+  background-color: #4d908e;
+  width: 200px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.other-island:first-child {
+  margin-top: 0px;
+}
+
+.layout-main {
+  display: flex;
+  width: 100%;
+}
+
+button.button {
+  width: 200px;
+  height: 45px;
+  background-color: #90be6d;
+  border-radius: 10px;
+  border: 4px solid white;
+}
+
+.landing-button-text {
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+}
+
+.landing-button-text:hover {
+  text-decoration: underline;
+}

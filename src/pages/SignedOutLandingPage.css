@@ -1,0 +1,38 @@
+.landing-wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button.landing-button {
+  width: 200px;
+  height: 45px;
+  background-color: #90be6d;
+  border-radius: 10px;
+  border: 4px solid white;
+}
+
+.landing-button-text {
+  text-decoration: none;
+  color: white;
+}
+
+.landing-button-text:hover {
+  text-decoration: underline;
+}
+
+.landing-subtitle {
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .landing-wrapper {
+    padding: 10px;
+  }
+
+  .picture {
+    width: 100%;
+  }
+}
